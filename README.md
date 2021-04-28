@@ -59,7 +59,7 @@ THEN I am taken to the corresponding section of the README
     - [ ] a generated README that matches the user input and has a functioning table of contents
 
 ## Guidelines:
- Create a .gitignore file and include node_modules/ and .DS_Store/ so that your node_modules directory isn't tracked or uploaded to GitHub. Be sure to create your .gitignore file before installing any npm dependencies.
+ Create a .gitignore file and include node_modules/ so that your node_modules directory isn't tracked or uploaded to GitHub. Be sure to create your .gitignore file before installing any npm dependencies.
 
  Make sure that your repo includes a package.json with the required dependencies.
  Include a video of the typical user flow through your application. This includes views of the prompts and the responses after their selection.
