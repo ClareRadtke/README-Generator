@@ -1,11 +1,12 @@
 # README Generator
 
-A high quality README is important for any application but writing up a good README takes your time aways from working on the application. Use this command line README Generator to quickly create your README for any application. Including:
+A high quality README is important for any application but writing up a good README takes your time away from working on the application. Use this command line README Generator to quickly create your README for any application. Including:
 - what your app is for, 
 - how to use your app, 
-- how to install your app, 
+- how to install, 
 - how to report issues, 
-- how to make contributions (if your project is open source)
+- how to make contributions (if your project is open source),
+- licensing
 
 
 
