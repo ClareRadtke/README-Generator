@@ -8,7 +8,9 @@ A high quality README is important for any application but writing up a good REA
 - how to make contributions (if your project is open source),
 - licensing
 
+Please see [README-sample.md](/README-sample.md) for an example of a README created using this generator.
 
+![Video walkthrough of how to use the Generator](/resources/images/generateREADME.gif)
 
 ## User Story
 AS A developer
@@ -53,16 +55,8 @@ THEN I am taken to the corresponding section of the README
 
   - [x] Application will be invoked by using the node ```bash node src/index.js ``` command
   - [x] A sample README generated using the application must be submitted.
-  - [ ] A walkthrough video that demonstrates: 
+  - [x] A walkthrough video that demonstrates: 
     - [x] the functionality of the README generator must be submitted, and a link to the video should be included in your README file
     - [x] how a user would invoke the application from the command line
     - [x] how a user would enter responses to all of the prompts in the application
     - [x] a generated README that matches the user input and has a functioning table of contents
-
-## Guidelines:
- Create a .gitignore file and include node_modules/ so that your node_modules directory isn't tracked or uploaded to GitHub. Be sure to create your .gitignore file before installing any npm dependencies.
-
- Make sure that your repo includes a package.json with the required dependencies.
- Include a video of the typical user flow through your application. This includes views of the prompts and the responses after their selection.
- 
- Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers or other developers in the future what you built and why, and to show how it works.
