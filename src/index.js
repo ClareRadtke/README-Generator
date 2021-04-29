@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 const { licenses } = require("./data/licenses");
-
+const fs = require("fs");
 // TODO: Create an array of questions for user input
 const questions = [
   //turn into objects
@@ -46,7 +46,9 @@ function questionsPrompt() {
 questionsPrompt();
 // TODO Testing
 function generateREADME(opts) {
-  console.log(`# ${opts.title}
+  fs.writeFile(
+    "./READMEtest.md",
+    `# ${opts.title}
 
   ${opts.description}
   
@@ -76,9 +78,14 @@ function generateREADME(opts) {
   ${opts.testInstructions}
   
   ## Questions
-  ${opts.githubUsername}
+  ${opts.howToContact}
   ${opts.email}
-  ${opts.howToContact}`);
+  ${opts.githubUsername}
+  `,
+    (err) => {
+      if (err) console.error(err);
+    }
+  );
 }
 
 // TODO: Create a function to write README file
