@@ -1,6 +1,6 @@
-# 1
+# ...
 
-  2
+  nah
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
@@ -13,21 +13,22 @@
   6. [Questions](#Questions)
   
   ## Installation
-  3
+  o
   
   ## Usage
-  4
+  p
   
   ## License
   This project is licensed under the terms of the MIT license.
   
   ## Contributing
-  5
+  dont
   
   ## Tests
-  6
+  none
   
   ## Questions
-  8
-  7
-  9
+  email mew  
+  [clare.radtke@outlook.com](mailto:clare.radtke@outlook.com?subject=Github%20...%20Query)  
+  [GlareRadtke](https://github.com/GlareRadtke)
+  

@@ -28,6 +28,6 @@ How can others contribute?
 Testing instructions
 
 ## Questions
-Github username
-email address
 information on how to contact
+[email address]()
+[Github username]()

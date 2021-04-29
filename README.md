@@ -36,22 +36,22 @@ THEN I am taken to the corresponding section of the README
   - [x] Use the Inquirer package.
 
   - [ ] Sections for README Generator:
-    - [ ] Title
-    - [ ] Description
-    - [ ] Table of Contents
-      - [ ] items clicked link to the corresponding section of README
-    - [ ] Installation
-    - [ ] Usage
-    - [ ] License
+    - [x] Title
+    - [x] Description
+    - [x] Table of Contents
+      - [x] items clicked link to the corresponding section of README
+    - [x] Installation
+    - [x] Usage
+    - [x] License
       - [ ] list of options
       - [ ] badge added near top
-    - [ ] Contributing
-    - [ ] Tests
-    - [ ] Questions
-      - [ ] GitHub username links to individuals Github
-      - [ ] Email address provides instructions on how to reach me with questions
+    - [x] Contributing
+    - [x] Tests
+    - [x] Questions
+      - [x] GitHub username links to individuals Github
+      - [x] Email address provides instructions on how to reach me with questions
 
-  - [ ] Application will be invoked by using the node ```bash node index.js ``` command
+  - [x] Application will be invoked by using the node ```bash node src/index.js ``` command
   - [ ] A sample README generated using the application must be submitted.
   - [ ] A walkthrough video that demonstrates: 
     - [ ] the functionality of the README generator must be submitted, and a link to the video should be included in your README file

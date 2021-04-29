@@ -78,9 +78,9 @@ function generateREADME(opts) {
   ${opts.testInstructions}
   
   ## Questions
-  ${opts.howToContact}
-  ${opts.email}
-  ${opts.githubUsername}
+  ${opts.howToContact}  
+  [${opts.email}](mailto:${opts.email}?subject=Github%20${opts.title}%20Query)  
+  GitHub: [${opts.githubUsername}](https://github.com/${opts.githubUsername})
   `,
     (err) => {
       if (err) console.error(err);
