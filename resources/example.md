@@ -30,4 +30,4 @@ Testing instructions
 ## Questions
 information on how to contact
 [email address]()
-[Github username]()
+[Github username](https://github.com/${})
