@@ -2,7 +2,7 @@
 
 2
 
-undefined
+
 
 ## Table of Contents
 1. [Installation](#Installation)
@@ -19,7 +19,7 @@ undefined
 4
 
 ## License  
-This project is licensed under the terms of the [MIT license](undefined).
+This project is licensed under the terms of the [PostgreSQL license](https://opensource.org/licenses/PostgreSQL).
 
 ## Contributing
 5

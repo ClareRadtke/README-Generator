@@ -72,27 +72,21 @@ function init() {}
 init();
 
 function renderLicenseBadge(inputLicense) {
-  console.log("render Licence Badge start");
-  licenses.forEach((license) => {
-    if (inputLicense === license.name) {
-      return license.badge;
-    } else {
-      return "";
-    }
-  });
+  if (inputLicense === "no license") {
+    return "";
+  }
+  const license = licenses.find((license) => inputLicense === license.name);
+  return license.badge ?? "";
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(inputLicense) {
-  console.log("render License link start");
-  licenses.forEach((license) => {
-    if (inputLicense === license.name) {
-      return license.link;
-    } else {
-      return "";
-    }
-  });
+  if (inputLicense === "no license") {
+    return "";
+  }
+  const license = licenses.find((license) => inputLicense === license.name);
+  return license.link;
 }
 
 // TODO: Create a function that returns the license section of README
