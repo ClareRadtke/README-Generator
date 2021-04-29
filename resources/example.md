@@ -29,5 +29,5 @@ Testing instructions
 
 ## Questions
 information on how to contact
-[email address]()
+[email address](mailto:${opts.email}?subject=Github%20${opts.title}%20Query)
 [Github username](https://github.com/${})
