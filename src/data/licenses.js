@@ -148,6 +148,9 @@ const licenses = [
       "[![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)](https://opensource.org/licenses/Zlib)",
     link: "https://opensource.org/licenses/Zlib",
   },
+  {
+    name: "no license",
+  },
 ];
 
 module.exports.licenses = licenses;
